@@ -4,11 +4,12 @@
  */
 package Entity;
 
-public class Televisor extends Electrodomestico{
+public class Televisor extends Electrodomestico {
+
     //atributos intrínsicos de Televisor
     private int resolucion;
     private boolean sintonizador;
-
+private int a;
     public Televisor(int resolucion, boolean sintonizador, double precio, String color, char consumoEnergetico, double peso) {
         super(precio, color, consumoEnergetico, peso);
         this.resolucion = resolucion;
@@ -39,6 +40,4 @@ public class Televisor extends Electrodomestico{
         return "Televisor{" + "resolucion=" + resolucion + ", sintonizador=" + sintonizador + '}';
     }
 
-   
-    
 }

@@ -8,6 +8,7 @@ public class Lavadora extends Electrodomestico {
 
     //Atributos intrínsicos de Lavadora
     private int carga;
+    private String frankEstuvoAqui;
 
     public Lavadora() {
 
