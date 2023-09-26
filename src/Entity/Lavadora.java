@@ -9,6 +9,7 @@ public class Lavadora extends Electrodomestico {
     //Atributos intrínsicos de Lavadora
     private int carga;
     private String hoa;
+    private int anios;
     public Lavadora() {
 
     }
