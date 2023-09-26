@@ -8,16 +8,19 @@ public class Lavadora extends Electrodomestico {
 
     //Atributos intrínsicos de Lavadora
     private int carga;
-
+    private String hoa;
     public Lavadora() {
 
     }
 
     //Atributo propio (this) y atributos  heredados (super())
-    public Lavadora(int carga, double precio, String color, char consumoEnergetico, double peso) {
+
+    public Lavadora(int carga, String hoa, double precio, String color, char consumoEnergetico, double peso) {
         super(precio, color, consumoEnergetico, peso);
         this.carga = carga;
+        this.hoa = hoa;
     }
+    
 
     public int getCarga() {
         return carga;
